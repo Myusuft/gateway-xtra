@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "employeeService": {
+        "applicationIndex": 3,
+        "serverPort": "8083"
+      },
+      "expenseService": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      },
+      "notificationService": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      }
+    },
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "buildTool": "gradle",
+    "cacheProvider": "redis",
+    "clientFramework": "angular",
+    "devDatabaseType": "postgresql",
+    "devServerPort": 4200,
+    "entities": ["Category", "UserExpense", "ExpenseActivity", "Notification", "Employee", "Employee2"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "OTc3NmNmZGQ4NjFhNTU1YmY1OTJkYWQ1YmU4MGQ5ODg4Y2ZlMjIwZTI0ZTU4ZDE0NTBjMTgwMDE2OWU1YWNmMjM1MjRmZGJjYzAxNjk0MDY2MWZiN2Q1MzUyNDUxNWQ4OWE5YThmMjE1YmZiYzVhYjViZjBiZTliMGRiYjhhNTA=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1706146313000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/xtramile/internal",
+    "packageName": "com.xtramile.internal",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "serverPort": "8080",
+    "serviceDiscoveryType": "consul",
+    "skipCommitHook": true,
+    "skipUserManagement": true
+  }
+}
